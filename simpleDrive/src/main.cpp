@@ -18,7 +18,7 @@ competition Competition;
 // define your global instances of motors and other devices here
 // Robot configuration code.
 controller Controller1 = controller(primary);
-motor leftMotorA = motor(PORT1, ratio6_1, false);
+motor leftMotorA = motor(PORT1, ratio6_1, true);
 motor leftMotorB = motor(PORT2, ratio6_1, false);
 motor_group LeftDriveSmart = motor_group(leftMotorA, leftMotorB);
 motor rightMotorA = motor(PORT3, ratio6_1, true);
